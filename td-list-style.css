@@ -7,9 +7,26 @@ html, body {
     background: -webkit-linear-gradient(39deg, rgba(55, 112, 135, 0.9402135854341737) 10%, rgba(179, 39, 241, 0.7777485994397759) 90%);
     background: linear-gradient(39deg, rgba(55, 112, 135, 0.9402135854341737) 10%, rgba(179, 39, 241, 0.7777485994397759) 90%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#377087", endColorstr="#b327f1", GradientType=1);
+    position: relative;
 }
 
 #main-heading > h1 {
     font-size: 60px;
     text-align: center;
+}
+
+#current-list {
+    width: 30rem;
+    height: 25rem;
+    background: white;
+    opacity: 60%;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    border-radius: 10px;
+
+}
+
+.modal {
+    display: none;
 }
