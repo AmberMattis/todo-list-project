@@ -11,6 +11,12 @@ function changeListTitle() {
     });
 }
 
+$("#save").click(function(){
+    var userInput = $(".form-control").val();
+    userInput.appendTo($("#main-heading"));
+})
+
+
 // will allow the user to click create new list button on page load
 $(window).onload(changeListTitle());
 
